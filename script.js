@@ -1,4 +1,4 @@
-$.get("http://localhost:7320/api/about-me", function (data) {
+$.get("data-api.nabbonoushad.xyz/api/about-me", function (data) {
     $('#image').attr('src', data.ME.data.image)
     $('#name').append(data.ME.data.name)
     $('#role').append(data.ME.role)
